@@ -1,7 +1,7 @@
 {
-  "name": "module-ts-template",
-  "version": "0.0.0",
-  "description": "",
+  "name": "@mongodb-helpers/create-url",
+  "version": "0.1.0",
+  "description": "Simple helper function to generate mongodb url from config object",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mongodb-helpers/module-ts-template.git"
+    "url": "git+https://github.com/mongodb-helpers/create-url.git"
   },
   "keywords": [],
   "license": "MIT",
@@ -33,12 +33,25 @@
     "url": "https://www.3imed-jaberi.com"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "mocha": "^9.0.3",
+    "nyc": "^15.1.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
   "engines": {
     "node": ">= 14"
   },
   "bugs": {
-    "url": "https://github.com/mongodb-helpers/module-ts-template/issues"
+    "url": "https://github.com/mongodb-helpers/create-url/issues"
   },
-  "homepage": "https://github.com/mongodb-helpers/module-ts-template#readme"
+  "homepage": "https://github.com/mongodb-helpers/create-url#readme"
 }
